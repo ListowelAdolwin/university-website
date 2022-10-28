@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,600;0,700;1,700&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2070b3b8bb.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section class="header">
+        <nav class="header-nav">
+            <a href="index.html"><img class="logo" src="assets/images/logo.png" alt="KNUST's logo">
+            </a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Courses</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>World's Biggest University</h1>
+            <p>
+                Want to attend a University that will change you life forever? <br>
+                KNUST is here for you. Get enrolled and testify.
+            </p>
+            <a class="hero-btn" href="#">Visit us to know more</a>
+        </div>
+    </section>
+    <!--Course Section-->
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>Listed below are the courses we offer at KNUST</p>
+    </section>
+
+
+
+
+
+
+<script>
+var navLinks = document.getElementById("navLinks");
+
+function showMenu(){
+    navLinks.style.right = "0";
+}
+
+function hideMenu(){
+    navLinks.style.right = "-200px";
+}
+</script>
+</body>
+
+</html>
