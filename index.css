@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   font-family: Arial, Helvetica, sans-serif "Poppins", sans-serif;
+  box-sizing: border-box;
 }
 
 .header {
@@ -24,6 +25,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 2% 6%;
+  overflow: hidden;
 }
 
 .nav-links {
@@ -314,7 +316,8 @@ nav .fa {
 .testimonial-col h3{
   text-align: right;
   padding: 5px;
-  font-style: italic;
+  font-style: oblique;
+  font-weight: 100;
 }
 
 .testimonial-col .fa{
@@ -340,6 +343,7 @@ nav .fa {
   border-radius: 10px;
   text-align: center;
   padding: 100px 0;
+  overflow: hidden;
 }
 
 .cta h1{
@@ -351,8 +355,9 @@ nav .fa {
 
 @media(max-width: 700px){
   .cta h1{
-    font-size: 25px;
+    font-size: 15px;
 }
+
 }
 
 /** Footer **/
@@ -381,3 +386,67 @@ nav .fa {
 .fa-heart-o{
   color: #f44336;
 }
+
+
+/*********************About Us Page *****************/
+
+.sub-header{
+  height: 70vh;
+  width: 100%;
+  background-image:linear-gradient(rgba(4,9,30,0.8), rgba(4,9,30,0.8)), url("assets/images/graduation-pic.jpg");
+  background-size: cover;
+  text-align: center;
+  color: #fff;
+}
+
+.sub-header h1{
+  font-size: 70px;
+}
+
+
+.about-us{
+  width: 80%;
+  margin: auto;
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+
+.about-col{
+  flex-basis: 48%;
+  padding: 30px 2px;
+}
+
+.about-us img{
+  width: 100%;
+}
+
+.about-col h1{
+  padding-top: 0;
+  font-size: 40px;
+}
+ .about-col p{
+  padding: 15px 0 25px;
+ }
+
+ .red-btn{
+  border: 1px solid #f44336;
+  background: transparent;
+  color: #f44336;
+  display: block;
+  width: 150px;
+  margin-top: 20px;
+ }
+
+ .red-btn:hover{
+  color: #fff;
+ }
+
+ @media(max-width:700px){
+  .sub-header h1{
+    font-size: 50px;
+  }
+
+  .about-col h1{
+    font-size: 20px;
+ }
+ }
