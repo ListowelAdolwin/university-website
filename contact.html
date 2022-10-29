@@ -32,28 +32,49 @@
             </div>
             <i class="fa fa-bars" onclick="showMenu()"></i>
         </nav>
-        <h1>About Us</h1>
+        <h1>Contact Us</h1>
     </section>
 
-        <!-- About Us section -->
-    <section class="about-us">
+    <!--Contact Us-->
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15851.189070302215!2d-1.5693055499999997!3d6.6720242!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sgh!4v1667067580882!5m2!1sen!2sgh" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <section class="contact-us">
         <div class="row">
-            <div class="about-col">
-                <h1>We are the world's biggest University </h1>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Recusandae nostrum nobis voluptatum aLorem ipsum dolor sit amet
-                    consectetur adipisicing elit.
-                    Recusandae nostrum nobis voluptatum at maxime, act maxime, accusamus
-                    placeat aperiam, eos veniam fugit praesentium temporibus earum
-                     veritatis? Deleniti debitis reprehenderit rem officia eligendi.
-                     <a class="hero-btn red-btn" href="">Explore Now</a>
-                </p>
+            <div class="contact-col">
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span>
+                        <h5>Accra Rd, Kumasi</h5>
+                        <p>Opens 8AM Mon to Fri</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+                        <h5>032 206 0021</h5>
+                        <p></p>
+                    </span>
+                </div><div>
+                    <i class="fa fa-envelope"></i>
+                    <span>
+                        <h5>registrar@knust.edu.gh</h5>
+                        <p>Email us your query</p>
+                    </span>
+                </div>
             </div>
-            <div class="about-col">
-                <img src="assets/images/happy-students2.jpg" alt="">
+            <div class="contact-col">
+                <form action="form-handler.php" method="post">
+                    <input name = "name" type="text" placeholder="enter your name" required>
+                    <input name = "email" type="email" placeholder="enter your email" required>
+                    <input name = "subject" type="text" placeholder="enter your subject" required>
+                    <textarea name = "message" rows="7" placeholder="enter message" required></textarea>
+                    <button type="submit" class="hero-btn comment-btn">Send message</button>
+                </form>
             </div>
         </div>
+
     </section>
 <!-- Footer -->
 
@@ -93,3 +114,4 @@
 </body>
 
 </html>
+
