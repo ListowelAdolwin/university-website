@@ -145,7 +145,7 @@ nav .fa {
     padding-top: 100px;
 }
 
-.course h1{
+.course h1,.campus h1,.facilities h1, .testimonials h1{
     font-size: 36px;
     font-weight: 600;
 }
@@ -287,4 +287,97 @@ nav .fa {
     margin: auto;
     padding-top: 50px;
     text-align: center;
+}
+
+.testimonial-col{
+  flex-basis: 31%;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  text-align: left;
+  background: #fff3f3;
+  padding: 20px;
+  margin-right: 20px;
+  display: flex;
+}
+
+.testimonial-col img{
+  height: 40px;
+  margin-left: 5px;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.testimonial-col p{
+  padding: 0;
+}
+
+.testimonial-col h3{
+  text-align: right;
+  padding: 5px;
+  font-style: italic;
+}
+
+.testimonial-col .fa{
+  color: #f44336;
+  opacity: 0.8;
+  padding-top: 5px;
+}
+
+@media(max-width: 700px){
+
+}
+
+
+/* Call to Action */
+
+.cta{
+  margin: 100px;
+  width: 80%;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.8), rgba(4, 9, 30, 0.9)),
+  url("assets/images/students-study.webp");
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.cta h1{
+  font-size: 30px;
+  color: #fff;
+  margin-bottom:  40px;
+  padding: 0;
+}
+
+@media(max-width: 700px){
+  .cta h1{
+    font-size: 25px;
+}
+}
+
+/** Footer **/
+.footer{
+  width: 100%;
+  text-align: center;
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+.footer h4{
+  margin-bottom: 25px;
+  margin-top: 20px;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+
+.icons .fa{
+  color: #f44336;
+  margin: 0 14px;
+  cursor: pointer;
+  padding: 18px 0;
+}
+
+.fa-heart-o{
+  color: #f44336;
 }
