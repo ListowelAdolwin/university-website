@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,600;0,700;1,700&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2070b3b8bb.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav class="header-nav">
+            <a href="index.html"><img class="logo" src="assets/images/logo.png" alt="KNUST's logo">
+            </a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Courses</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+    </section>
+
+        <!-- About Us section -->
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>We are the world's biggest University </h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Recusandae nostrum nobis voluptatum aLorem ipsum dolor sit amet
+                    consectetur adipisicing elit.
+                    Recusandae nostrum nobis voluptatum at maxime, act maxime, accusamus
+                    placeat aperiam, eos veniam fugit praesentium temporibus earum
+                     veritatis? Deleniti debitis reprehenderit rem officia eligendi.
+                     <a class="hero-btn red-btn" href="">Explore Now</a>
+                </p>
+            </div>
+            <div class="about-col">
+                <img src="assets/images/happy-students2.jpg" alt="">
+            </div>
+        </div>
+    </section>
+<!-- Footer -->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>
+            Lorem ipsum dolor sit amet consectetur
+            Ducimus non voluptatem deserunt est earum  <br>
+             tenetur autem ipsam, consequatur quasi corporis illum corrupti
+        </p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i> by @<a href="https://github.com/ListowelAdolwin">ListowelAdolwin</a></p>
+    </section>
+
+
+
+
+
+
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
