@@ -191,6 +191,11 @@ nav .fa {
     .row{
         flex-direction: column;
     }
+
+    .course h1,.campus h1,.facilities h1, .testimonials h1{
+      font-size: 25px;
+      font-weight: 600;
+  }
 }
 
 /* Campus */
@@ -358,6 +363,9 @@ nav .fa {
     font-size: 15px;
 }
 
+.cta{
+  margin: auto;
+}
 }
 
 /** Footer **/
@@ -607,9 +615,9 @@ nav .fa {
   }
 
   .sub-header{
-    height: 50vh;
+    height: 40vh;
     width: 100%;
-    background-image:linear-gradient(rgba(4,9,30,0.8), rgba(4,9,30,0.8)), url("assets/images/mobile-graduants.jpeg");
+    background-image:linear-gradient(rgba(4,9,30,0.8), rgba(4,9,30,0.8)), url("assets/images/mobile-graduation-pic.jpg");
     background-size: cover;
     text-align: center;
     color: #fff;
