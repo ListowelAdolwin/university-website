@@ -592,3 +592,27 @@ nav .fa {
   outline: none;
   border: 1px solid #ccc;
 }
+
+@media(max-width: 700px){
+  .contact-us{
+    font-size: 15px;
+  }
+
+  .contact-col div .fa{
+    font-size: 15px;
+  }
+
+  .contact-col div h5{
+    font-size: 15px;
+  }
+
+  .sub-header{
+    height: 50vh;
+    width: 100%;
+    background-image:linear-gradient(rgba(4,9,30,0.8), rgba(4,9,30,0.8)), url("assets/images/graduation-pic.jpg");
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+  }
+
+}
